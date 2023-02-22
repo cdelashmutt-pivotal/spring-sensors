@@ -1,11 +1,13 @@
 accelerator:
-  displayName: Spring Sensors
-  description: A Spring application for tracking sensor data
-  iconUrl: https://github.com/sample-accelerators/icons/raw/master/sensor-dashboard.png
+  displayName: Fiserv App Accelerator with Data
+  description: Get started on your cloud app quickly.
+  iconUrl: https://dwglogo.com/wp-content/uploads/2017/03/Fiserv-logo-01-1024x705.png
   tags:
     - java
     - spring
     - tanzu
+    - data
+    - mysql
 
   options:
     - name: repositoryPrefix

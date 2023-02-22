@@ -18,6 +18,6 @@ spec:
   source:
     git:
       # update when code is pushed to a new location
-      url: $GITREPO
+      url: <https URL for your generated project's Git repository>
       ref:
         branch: main
