@@ -9,6 +9,7 @@ k8s_custom_deploy(
                " --local-path " + LOCAL_PATH +
                " --namespace " + NAMESPACE +
                " --label inner-loop=true " +
+               " --service-ref db- " +
                " --yes >/dev/null" +
                " && kubectl get workload spring-sensors --namespace " + NAMESPACE + " -o yaml",
     delete_cmd="tanzu apps workload delete -f config/workload.yaml --namespace " + NAMESPACE + " --yes",
